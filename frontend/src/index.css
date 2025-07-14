@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color:#333;
+  
+  background: linear-gradient(135deg, #f7f9fc 0%, #e0ecf8 100%);
+
+}
+/* html, body, #root {
+  height: 100%;
+  margin: 0;
+}
+.app-container {
+  display: flex;
+  flex-direction: column;
+  
+}
+.main-content {
+  padding-bottom: 0px; /* same height as footer 
+} */
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+/* Add to e:\Downloads\ConnectX-master\ConnectX-master\frontend\src\index.css */
+
+footer {
+  font-family: inherit;
+  letter-spacing: 0.01em;
+  box-shadow: 0 -1px 6px rgba(0,0,0,0.04);
+}
+
+footer {
+  background-color: #264653;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+  font-size: 0.9rem;
+  margin-top: 3rem;
+}
+
+footer a:hover {
+  color: #fff;
+}
+
+.main-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 90vh;
+  padding: 2rem;
+}
+
+.navbar {
+  background-color: #264653;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 1rem 2rem;
+}
+
+.navbar a {
+  color: white;
+  font-weight: 600;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.navbar a:hover {
+  color: #e63946;
+}
+
+.btn {
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 1rem;
+  background-color: #e63946;
+  color: white;
+  cursor: pointer;
+}
+
+.btn:focus {
+  outline: none;
+}

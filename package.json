@@ -1,0 +1,17 @@
+{
+  "name": "microsoft-teams-clone",
+  "version": "1.0.0",
+  "description": "Microsoft Teams Clone",
+  "main": "index.js",
+  "scripts": {
+    "server": "cd backend && nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "client": "cd frontend && npm run start"
+  },
+  "author": "Pranjal Jain",
+  "license": "ISC",
+  "dependencies": {
+    "react-bootstrap-sweetalert": "^5.2.0",
+    "sweetalert": "^2.1.2"
+  }
+}
